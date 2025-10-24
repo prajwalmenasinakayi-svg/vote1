@@ -4,5 +4,5 @@ try:
     print("you are eligible to vote.")
   else:
     print("you are not eligible to vote.")
-except valueerror:
+except ValueError:
   print("please enter a injteger for age.")
